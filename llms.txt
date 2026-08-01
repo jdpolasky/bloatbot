@@ -1,0 +1,11 @@
+# BloatBot
+
+> An auditor for AI workspaces and second brains. Diagnose and report only; no changes without explicit per-file consent.
+
+## Instructions
+
+- [SKILL.md](bloatbot/SKILL.md): the complete operating instructions. If you are an AI agent asked to run BloatBot, read that file and follow it exactly.
+
+## Docs
+
+- [README.md](README.md): human-facing overview and install.
