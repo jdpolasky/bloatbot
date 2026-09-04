@@ -6,6 +6,8 @@ BloatBot walks your folder tree and reports what is redundant, dead, or wasting 
 
 Works on Obsidian vaults, Logseq graphs, plain markdown folders, agent workspaces (Claude Code, Codex, etc.), and RAG source folders.
 
+Sibling to [BuildBot](https://github.com/jdpolasky/buildbot). BloatBot prunes the system, BuildBot grows it, and neither grades its own work. Both came out of [chief-of-staff-2](https://github.com/jdpolasky/chief-of-staff-2), an AI Chief of Staff that lives in an Obsidian vault as plain markdown; they are the tools it is kept lean with.
+
 ## Install
 
 **Claude Code:**

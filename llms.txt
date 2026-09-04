@@ -9,3 +9,7 @@
 ## Docs
 
 - [README.md](README.md): human-facing overview and install.
+
+## Optional
+
+- [chief-of-staff-2](https://github.com/jdpolasky/chief-of-staff-2): The AI Chief of Staff system these tools maintain.
