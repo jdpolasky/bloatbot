@@ -21,9 +21,11 @@ cd bloatbot
 
 ```bash
 # all projects
+mkdir -p ~/.claude/skills
 cp -r bloatbot ~/.claude/skills/bloatbot
 
 # or one project
+mkdir -p your-project/.claude/skills
 cp -r bloatbot your-project/.claude/skills/bloatbot
 ```
 
@@ -31,9 +33,11 @@ cp -r bloatbot your-project/.claude/skills/bloatbot
 
 ```powershell
 # all projects
+New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null
 Copy-Item -Recurse bloatbot "$HOME\.claude\skills\bloatbot"
 
 # or one project
+New-Item -ItemType Directory -Force your-project\.claude\skills | Out-Null
 Copy-Item -Recurse bloatbot your-project\.claude\skills\bloatbot
 ```
 
