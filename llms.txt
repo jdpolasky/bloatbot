@@ -12,4 +12,4 @@
 
 ## Optional
 
-- [chief-of-staff-2](https://github.com/jdpolasky/chief-of-staff-2): The AI Chief of Staff system these tools maintain.
+- [chief-of-staff-2](https://github.com/jdpolasky/chief-of-staff-2): The AI Chief of Staff system. These tools keep chief-of-staff-2 lean (BloatBot) and build new parts for it (BuildBot).

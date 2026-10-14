@@ -1,12 +1,14 @@
 # BloatBot
 
+> Built by [Joshua Polasky](https://github.com/jdpolasky), a strategy and operations consultant. Business first, then AI. [How I work with businesses](https://github.com/jdpolasky/jdpolasky/blob/main/HOW-I-WORK.md) · joshua.polasky@gmail.com
+
 An auditor for your AI workspace. Finds the bloat, proposes the cuts, touches nothing without your go.
 
 BloatBot walks your folder tree and reports what is redundant, dead, or wasting tokens: instruction files that load every session, duplicate notes, dead links, orphan files, overlapping skills, abandoned config. Findings are ranked by payoff. It never edits, deletes, or renames anything without your explicit go, file by file.
 
-Works on Obsidian vaults, Logseq graphs, plain markdown folders, agent workspaces (Claude Code, Codex, etc.), and RAG source folders.
+Works on Obsidian vaults, Logseq graphs, plain markdown folders, agent workspaces, and RAG source folders. It was tested on Claude Code and should work on other agents that read skill folders.
 
-Sibling to [BuildBot](https://github.com/jdpolasky/buildbot). BloatBot prunes the system, BuildBot grows it, and neither grades its own work. Both came out of [chief-of-staff-2](https://github.com/jdpolasky/chief-of-staff-2), an AI Chief of Staff that lives in an Obsidian vault as plain markdown; they are the tools it is kept lean with.
+Sibling to [BuildBot](https://github.com/jdpolasky/buildbot). BloatBot prunes the system, BuildBot grows it, and neither grades its own work. Both came out of [chief-of-staff-2](https://github.com/jdpolasky/chief-of-staff-2), an AI Chief of Staff that lives in an Obsidian vault as plain markdown. BloatBot keeps it lean, and BuildBot builds new parts for it.
 
 ## Install
 
