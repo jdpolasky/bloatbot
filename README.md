@@ -1,6 +1,6 @@
 # BloatBot
 
-An auditor for your AI workspace. Finds the bloat, proposes the cuts, touches nothing.
+An auditor for your AI workspace. Finds the bloat, proposes the cuts, touches nothing without your go.
 
 BloatBot walks your folder tree and reports what is redundant, dead, or wasting tokens: instruction files that load every session, duplicate notes, dead links, orphan files, overlapping skills, abandoned config. Findings are ranked by payoff. It never edits, deletes, or renames anything without your explicit go, file by file.
 
@@ -10,7 +10,14 @@ Sibling to [BuildBot](https://github.com/jdpolasky/buildbot). BloatBot prunes th
 
 ## Install
 
-**Claude Code:**
+Get the files first:
+
+```bash
+git clone https://github.com/jdpolasky/bloatbot
+cd bloatbot
+```
+
+**Claude Code** (bash on macOS, Linux, or Git Bash):
 
 ```bash
 # all projects
@@ -20,7 +27,19 @@ cp -r bloatbot ~/.claude/skills/bloatbot
 cp -r bloatbot your-project/.claude/skills/bloatbot
 ```
 
+**Claude Code** (Windows PowerShell):
+
+```powershell
+# all projects
+Copy-Item -Recurse bloatbot "$HOME\.claude\skills\bloatbot"
+
+# or one project
+Copy-Item -Recurse bloatbot your-project\.claude\skills\bloatbot
+```
+
 New session, then `/bloatbot`.
+
+**Codex:** OpenAI's docs say Codex reads skills in this same SKILL.md format from a `.agents/skills` folder, either in your home folder or in a repo. Copying `bloatbot` there should work. BloatBot was tested on Claude Code and hasn't been run on Codex yet.
 
 **Everything else:** `bloatbot/SKILL.md` is plain instructions. Paste it into any model that can read your files and tell it where to look.
 
@@ -70,3 +89,7 @@ Optionally (with your permission) it keeps one file, `bloatbot-rulings.md`: find
 ## Why
 
 Agent setups rot in predictable ways. Rules accumulate and nothing gets deleted. Parts bolted on at different times stop fitting. The same fact ends up in four places. The always-loaded files grow until they crowd out the actual work. BloatBot's job is to find all of it before your system becomes its own project.
+
+## Who made this
+
+Built by Joshua Polasky, a strategy and operations consultant. Business first, then AI. If you're an owner or leader who wants help figuring out where AI fits in your business, get in touch: joshua.polasky@gmail.com or [LinkedIn](https://linkedin.com/in/joshuapolasky).
