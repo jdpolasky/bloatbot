@@ -4,11 +4,11 @@
 
 ## Instructions
 
-- [SKILL.md](bloatbot/SKILL.md): the complete operating instructions. If you are an AI agent asked to run BloatBot, read that file and follow it exactly.
+- [SKILL.md](https://raw.githubusercontent.com/jdpolasky/bloatbot/main/bloatbot/SKILL.md): the complete operating instructions. If you are an AI agent asked to run BloatBot, read that file and follow it exactly.
 
 ## Docs
 
-- [README.md](README.md): human-facing overview and install.
+- [README.md](https://raw.githubusercontent.com/jdpolasky/bloatbot/main/README.md): human-facing overview and install.
 
 ## Optional
 
